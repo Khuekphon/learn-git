@@ -5,9 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Git</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<body>
-    <h1>Hello, World</h1>
-    <p>this is add Home</p>
+<body class="body">
+    <header>
+        <div class="px-3 py-2 text-bg-dark">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+             
+              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                <li>
+                  <a href="#" class="nav-link text-secondary">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use></svg>
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"></use></svg>
+                    Dashboard
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"></use></svg>
+                    Orders
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg>
+                    Products
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"></use></svg>
+                    Customers
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="px-3 py-2 border-bottom mb-3">
+          <div class="container d-flex flex-wrap justify-content-center">
+            <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-light text-dark me-2">Login</button>
+              <button type="button" class="btn btn-primary">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </header>
+    <h1>บริษัท แจ๊คโปรดั๊กชั่น</h1>
+    <h3>รับจัดงานอีเว้น ทั่วประเทศ</h3>
+    <table class="customers">
+        <tr>
+            <th>ลำดับ</th>
+            <th>รายการของ</th>
+            <th>ราคา</th>
+            <th>หน่อย</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>กรรไกร</td>
+            <td>20</td>
+            <td>บาท</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ดินสอ</td>
+            <td>5</td>
+            <td>บาท</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>กรรไกร</td>
+            <td>20</td>
+            <td>บาท</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>ดินสอ</td>
+            <td>5</td>
+            <td>บาท</td>
+        </tr>
+    </table>
+    <br>
+    <div class="px-3 py-2 border-bottom mb-3">
+        <div class="container d-flex flex-wrap justify-content-center">
+          <div class="text-end">
+            <button type="button" class="px-3 py-2 btn btn-primary me-4">ตกลง</button>
+            <button type="button" class="px-3 py-2 btn btn-danger">ยกเลิก</button>
+          </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+
+
 </body>
 </html>
