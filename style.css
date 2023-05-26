@@ -1,4 +1,10 @@
-.body{
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
     background: #3ee2ff;
 }
 
@@ -20,11 +26,17 @@
   
   .customers tr:hover {background-color: #38afff;}
   
-  .customers th, h3, h1 {
+  .customers th, h3, h1{
     padding-top: 12px;
     padding-bottom: 12px;
     background-color: #04AA6D;
     color: white;
+    text-align: center;
+  }
+  .customers1 p{
+    padding-top: 5px;
+    padding-bottom: 3px;
+    font-size: 30px;
     text-align: center;
   }
   .button {
@@ -64,3 +76,17 @@
 .div {
     width: 100%;
 }
+.leftmenuinnerinner {
+  height:50%;
+  width:50%;
+  background-color:#E7E9EB;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  padding-top:20px;
+  }
+
+  .wrapper {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+  }
